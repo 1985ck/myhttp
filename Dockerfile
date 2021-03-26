@@ -1,4 +1,4 @@
-ROM ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER "1985ck <kimchangkyum85@gmail.com>"
 LABEL "purpose"="webserver practice"
 RUN apt-get update && apt-get install apache2 -y
